@@ -1,0 +1,20 @@
+{
+  "name": "chipdeweese",
+  "version": "1.0.0",
+  "description": "Chip DeWeese Home PAge",
+  "main": "index.js",
+  "author": "Chip DeWeese",
+  "license": "MIT",
+  "devDependencies": {
+    "material-design-icons-iconfont": "^5.0.1",
+    "vuepress": "^1.5.2",
+    "vuepress-theme-vuetify": "^1.0.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuetify": "^2.3.0"
+  }
+}
