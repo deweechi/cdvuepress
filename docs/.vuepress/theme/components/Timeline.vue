@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-timeline align-top :dense="this.$vuetify.breakpoint.smAndDown">
+    <v-timeline align-top :dense="this.$vuetify.breakpoint.mdAndDown">
       <v-timeline-item
         v-for="item in $page.frontmatter.experience"
         :key="item.id"

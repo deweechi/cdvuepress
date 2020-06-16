@@ -209,9 +209,7 @@ import Timeline from '@theme/components/Timeline'
 import Hero from '@theme/components/Hero'
 export default {
   components: {Timeline, Hero},
-  props: {
-    source: String
-  },
+  
   data: () => ({
     drawer: false
   }),
