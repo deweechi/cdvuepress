@@ -103,9 +103,9 @@
                   <v-flex xs12 md5 class="mb-5">
                     <v-layout align-center>
                       <v-flex xs6 class="text-uppercase primary--text font-weight-medium">
-                        <div class="mb-3">JS Framework</div>
-                        <div class="mb-3">CSS</div>
-                        <div class="mb-3">Images</div>
+                        <div class="mb-3">JS Framework:</div>
+                        <div class="mb-3">CSS Framework:</div>
+                        <div class="mb-3">Hero Image:</div>
                       </v-flex>
                       <v-flex xs6 class="subheading no-wrap">
                         <div class="mb-3">{{ $page.frontmatter.sitetech[0].vue }}</div>
