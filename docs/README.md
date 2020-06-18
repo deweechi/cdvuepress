@@ -17,14 +17,25 @@ education:
     school: Goldey-Beacom College
     degree: Bachelor of Science, Computer Information Systems
 
-about: My name is Chip DeWeese. I am a full stack Web Developer. I have over 25 years of IT experience ranging from answering calls on a service desk to managing global deployments. What I enjoy the most is Web Development. I work primarily with JavaScript.
+about: 
 
-thissite: I built this site using VuePress and Vuetify. The hero image at the top is from unsplash. The site is hosted through AWS Amplify. This makes it simple to rebuild/deploy without 
+thissite:  
 
 sitetech:
-  - vue: VuePress
-  - vuetify: Vuetify
-  - unsplash: UnSplash
+  - 
+    name: JS FRAMEWORK
+    value: VuePress
+  - 
+    name: css framework
+    value: Vuetify
+  - 
+    name: Hero Image
+    value: UnSplash
+  - 
+    name: this site repo
+    value: repo
+    link: true
+    target: https://github.com/deweechi/cdvuepress
 
 skills:
   -
@@ -120,8 +131,21 @@ experience:
     summary: My career started on a helpdesk answering support calls. By the time I left CAI, I was a Certified Lotus Notes Developer. I was placed on various contracts as needed. Assignments ranged from as short as 2 days to over a year.
 
 
-  
-
-
 ---
 
+::: slot aboutme
+Hello, my name is Chip DeWeese. Thank you for visiting my corner on the web. I am a Web developer with over 25 years of IT experience. I have done work for multiple companies including: JPMORGANCHASE, Mars, Blue Cross Blue Shield and DuPont. I love working with the Jamstack. I have worked with React and Angular but Vue is my preference.
+
+I love woodworking, particularly wood turning. Having multiple outlets for expressing creativity helps keep me away from the computer chair.
+
+In December 2004 I was diagnosed with stage 2 colon cancer. After surgery and some chemotherapy, I count myself as a 15+ year survivor. I had cancer, but cancer never had me! My scars are proof that I was stronger than cancer and I won.
+
+:::
+
+
+::: slot aboutsite
+
+I built this site using VuePress and Vuetify. The hero image at the top is from unsplash. I host the site on AWS Amplify. This makes it simple to rebuild/deploy without jumping through a lot of hoops. The content for this page is contained in a markdown file. Where needed items are put into variables and larger parts of the content are broken into named slots.
+
+This allows for great flexibility. All of this is then stored in a GitHub repository. I can make changes preview them locally and then sync the repo. Once the repo gets updated it triggers AWS Amplify to rebuild. 
+:::

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="timeline">
     <v-timeline align-top :dense="this.$vuetify.breakpoint.smAndDown">
       <v-timeline-item
         v-for="item in $page.frontmatter.experience"
@@ -7,7 +7,7 @@
         :color="item.color"
         fill-dot
       >
-      <span slot="opposite">{{item.year}}</span>
+        <span slot="opposite">{{item.year}}</span>
         <v-card :color="item.color" dark>
           <v-card-title class="title">{{item.company}}</v-card-title>
           <v-card-subtitle>{{item.title}}</v-card-subtitle>
