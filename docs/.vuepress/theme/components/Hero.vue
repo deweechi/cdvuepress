@@ -1,5 +1,5 @@
 <template>
-<v-container fluid fill-height class="home-hero">
+        <v-container fluid fill-height class="home-hero">
         <v-layout justify-end align-end column pa-5>
             <div class="font-weight-black white--text text-xs-right" :class=" this.$vuetify.breakpoint.name == 'xs' ? 'display-1' : 'display-4' ">{{ $page.frontmatter.name }}</div>
             <div class="display-4 font-weight-black deep-purple--text text-xs-right mb-3" :class=" this.$vuetify.breakpoint.name == 'xs' ? 'display-1' : 'display-4' ">{{ $page.frontmatter.occupation }}</div>
