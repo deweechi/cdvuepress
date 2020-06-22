@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer fixed app>
+    <Navbar />
+    <v-navigation-drawer fixed app >
       <v-layout justify-center align-center wrap column>
         <v-avatar size="128">
           <img :src="$withBase('imgs/profile.jpg')" alt="Chip DeWeese" />
@@ -65,14 +66,16 @@ import Hero from "@theme/components/Hero";
 import Aboutme from "@theme/components/Aboutme";
 import Aboutsite from "@theme/components/Aboutsite";
 import Skills from "@theme/components/Skills";
+import Navbar from "@theme/components/Navbar";
 export default {
-  components: { Timeline, Hero, Aboutme, Aboutsite, Skills },
+  components: { Timeline, Hero, Aboutme, Aboutsite, Skills, Navbar },
 
   data: () => ({
     drawer: false
   }),
 
   methods: {
+    toggleDrawer: ()=>{drawer = !drawer},
     scroll(id) {
       document.getElementById(id).scrollIntoView({
         behavior: "smooth"

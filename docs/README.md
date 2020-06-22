@@ -3,9 +3,9 @@ initials: Chip
 name: Chip DeWeese
 occupation: Web Developer
 location: Center Valley, PA
-email: chipdeweese@gmail.com
-phone: 484.888.1836
-discord: should i?
+email: chip.deweese@gmail.com
+phone: 484.402.7321
+discord: 
 linkedin: https://www.linkedin.com/in/chipdeweese/
 github: https://github.com/deweechi
 
