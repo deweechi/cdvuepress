@@ -6,7 +6,7 @@
         :class=" this.$vuetify.breakpoint.name == 'xs' ? 'display-1' : 'display-4' "
       >{{ $page.frontmatter.name }}</div>
       <div
-        class="display-4 font-weight-black deep-purple--text text-xs-right mb-3"
+        class="display-4 font-weight-black primary--text text-xs-right mb-3"
         :class=" this.$vuetify.breakpoint.name == 'xs' ? 'display-1' : 'display-4' "
       >{{ $page.frontmatter.occupation }}</div>
     </v-layout>

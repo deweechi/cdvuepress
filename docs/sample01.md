@@ -1,6 +1,6 @@
 ---
 layout: Sample01
-title: Sample Website # 1
+title: Sample Website
 copy: 2020 by Chip DeWeese
 tagline: This is a mock design for a website. 
 qoute: ‘The greatest glory in living lies not in never falling, but in rising every time we fall.’
