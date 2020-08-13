@@ -84,7 +84,7 @@ experience:
     icon: loyalty
     color: red lighten-2
     year: 2016 - Present
-    company: Freelancer
+    company: Freelance
     title: Freelance Web Consultant
     summary: Full-service web consultant. Design, develop, and implement web solutions. Fullstack Javascript web developer. Current technologies include Vue, VuePress, Nuxt, Strapi, Commercejs, Snipcart, and Vuetify. 
   -
