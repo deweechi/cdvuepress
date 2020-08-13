@@ -63,9 +63,6 @@ skills:
     name: Snipcart
     level: 80
   -
-    name: Commerce.js
-    level: 85
-  -
     name: SQL
     level: 85
   -
@@ -77,15 +74,7 @@ skills:
   -
     name: Node.js
     level: 85   
-  -
-    name: Proj Management
-    level: 90   
-  -
-    name: Bus Analyst
-    level: 95   
-  -
-    name: Cust Service
-    level: 100   
+  
    
 
 
