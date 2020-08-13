@@ -1,10 +1,10 @@
 ---
 initials: Chip
 name: Chip DeWeese
-occupation: Web Developer
+occupation: Web Consultant
 location: Center Valley, PA
 email: chip.deweese@gmail.com
-phone: 484.402.7321
+phone: 484.888.1836
 discord: 
 linkedin: https://www.linkedin.com/in/chipdeweese/
 github: https://github.com/deweechi
@@ -12,7 +12,7 @@ github: https://github.com/deweechi
 education:
   -
     school: Wilmington University
-    degree: Master of Science, Information Systems Technology - Web Design
+    degree: Master of Science, Information Systems Technology - Web Design (3.94 GPA)
   -
     school: Goldey-Beacom College
     degree: Bachelor of Science, Computer Information Systems
@@ -63,14 +63,31 @@ skills:
     name: Snipcart
     level: 80
   -
+    name: Commerce.js
+    level: 85
+  -
+    name: SQL
+    level: 85
+  -
     name: React
     level: 75
   -
     name: Strapi
     level: 80   
   -
-    name: Node
+    name: Node.js
     level: 85   
+  -
+    name: Proj Management
+    level: 90   
+  -
+    name: Bus Analyst
+    level: 95   
+  -
+    name: Cust Service
+    level: 100   
+   
+
 
 experience: 
   -
@@ -79,8 +96,8 @@ experience:
     color: red lighten-2
     year: 2016 - Present
     company: Freelancer
-    title: Freelance Javascript Developer
-    summary: Fullstack Javascript web developer. Providing solutions based on the JAM stack. Current projects include Vue, VuePress, Strapi, Snipcart and Vuetify.  
+    title: Freelance Web Consultant
+    summary: Full-service web consultant. Design, develop, and implement web solutions. Fullstack Javascript web developer. Current technologies include Vue, VuePress, Nuxt, Strapi, Commercejs, Snipcart, and Vuetify. 
   -
     id: 2
     icon: assignment_turned_in
@@ -88,7 +105,7 @@ experience:
     year: 2020 - Present
     company: Tutor.com
     title: Tutor I
-    summary: Online Tutor for HTML, CSS, JavaScript and PHP. When tutoring I need to assess, assist and guide the student in the learning process.  
+    summary: Online tutor approved to assist with HTML, CSS, JavaScript, and PHP. Quickly assess the needs of the student in a fast-paced, high-pressure, time constraint environment. Some tasks include; explaining concepts, debugging code, providing advice, and providing working examples.  
   -
     id: 3
     icon: cached
@@ -134,11 +151,13 @@ experience:
 ---
 
 ::: slot aboutme
-Hello, my name is Chip DeWeese. Thank you for visiting my corner on the web. I am a Web developer with over 25 years of IT experience. I have done work for multiple companies including: JPMORGANCHASE, Mars, Blue Cross Blue Shield and DuPont. I love working with the Jamstack. I have worked with React and Angular but Vue is my preference.
+Hello, my name is Chip DeWeese. Thank you for visiting my corner on the web. I am a Web consultant with over 25 years of IT experience. I have done work for multiple companies including JPMORGANCHASE, Mars, Blue Cross Blue Shield, and DuPont. I love working with the Jamstack. I have worked with React and Angular but Vue is my current preference.
 
-I love woodworking, particularly wood turning. Having multiple outlets for expressing creativity helps keep me away from the computer chair.
+I love woodworking, particularly woodturning. Having another outlet for expressing creativity helps keep me from being in the computer chair full time.
 
-In December 2004 I was diagnosed with stage 2 colon cancer. After surgery and some chemotherapy, I count myself as a 15+ year survivor. I had cancer, but cancer never had me! My scars are proof that I was stronger than cancer and I won.
+In December 2004 I was diagnosed with stage 2 colon cancer. I am a survivor. I like to participate in charitable events that raise money for cancer centered organizations. I have spoken about my experience at these events and I like to donate my woodworking for fundraising raffles. I had cancer, but cancer never had me! My scars are proof that I was stronger than cancer and I won.
+
+My wife and I are currently looking to relocate back down to the Delaware area. If you know of an opportunity in that area I would love to hear from you!
 
 :::
 
