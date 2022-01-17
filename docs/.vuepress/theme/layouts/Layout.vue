@@ -73,7 +73,12 @@ export default {
   data: () => ({
     drawer: false
   }),
-
+beforeMount() {
+    let recaptchaScript = document.createElement('noscript')
+    recaptchaScript.innerHTML = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZXTNR2" 
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>'
+    document.body.appendChild(recaptchaScript)
+},
   methods: {
     toggleDrawer: ()=>{drawer = !drawer},
     scroll(id) {
