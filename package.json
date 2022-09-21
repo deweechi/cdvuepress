@@ -15,6 +15,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vuetify": "^2.3.0"
+    "vuetify": "^2.6.10"
   }
 }
